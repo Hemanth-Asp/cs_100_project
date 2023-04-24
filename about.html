@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+           <img src="logo-removebg-preview.png" width="135px"> 
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="cart.html">Cart<img src="cart.png" alt=""></a></li> 
+            </ul>
+        </nav>
+        <img src="menu.png" class="menu" onclick="menuToggle()">
+    </div> 
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo porro sint fugiat perferendis officiis atque soluta accusantium delectus expedita omnis, temporibus deleniti enim vitae optio reprehenderit ea accusamus earum asperiores.</p>
+                    <div class="Rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="user-1.png" alt="">
+                    <h3>Elsa</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo porro sint fugiat perferendis officiis atque soluta accusantium delectus expedita omnis, temporibus deleniti enim vitae optio reprehenderit ea accusamus earum asperiores.</p>
+                    <div class="Rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="user-2.png" alt="">
+                    <h3>Mark</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo porro sint fugiat perferendis officiis atque soluta accusantium delectus expedita omnis, temporibus deleniti enim vitae optio reprehenderit ea accusamus earum asperiores.</p>
+                <div class="Rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="user-3.png" alt="">
+                <h3>Lina</h3>
+        </div>
+    </div>
+    <div class="brands">
+        <h1>Sponserd By</h1>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var menuitems = document.getElementById("menuitems");
+    menuitems.style.maxHeight="0px";
+    function menuToggle(){
+        if(menuitems.style.maxHeight=="0px"){
+            menuitems.style.maxHeight="200px"
+        }
+        else{
+            menuitems.style.maxHeight="0px"
+        }
+    }
+</script>
+</body>
+</html>
